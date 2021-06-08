@@ -1,4 +1,4 @@
-![icon (3)](https://user-images.githubusercontent.com/56317194/121268487-b0f43f00-c883-11eb-8f19-b218d46dfd50.png)
+![icon](https://user-images.githubusercontent.com/56317194/121268733-1a744d80-c884-11eb-8a45-648821901530.png)
 
 # Gravity
 
