@@ -1,6 +1,4 @@
-![icon](https://user-images.githubusercontent.com/56317194/121268733-1a744d80-c884-11eb-8a45-648821901530.png)
-
-# Gravity
+![icon (5)](https://user-images.githubusercontent.com/56317194/121270413-4c3ae380-c887-11eb-8acd-18ed77feeb0e.png)
 
 Adds 6 directional gravity to entities. 
 
