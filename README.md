@@ -1,4 +1,4 @@
-![Gravity Banner Large](https://user-images.githubusercontent.com/56317194/121419778-f2432800-c931-11eb-9167-afed407838f4.png)
+![Gravity Banner Large](https://user-images.githubusercontent.com/56317194/121419778-f2432800-c931-11eb-9167-afed407838f4.png) (Might change back to GravityLib later)
 
 ## Currently for fabric 1.17
 
