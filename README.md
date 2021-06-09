@@ -10,7 +10,9 @@ Adds 6 directional gravity to entities with variable strength.
 Directions defaults to Down and includes: Up, Down, North, East, South, and West.
 
 Strength defaults to 1 and acts differently depending if the value is positive, negative, or zero.
+
 Generally, strength values closer to zero are weaker and those further from zero are stronger, while a strength of zero prevents movement.
+
 Negative gravity values act as antigravity and repel entities while keeping their direction intact, and thus a gravity of -1 Up would look like Dinnerbone does.
 
 Future Plans:
