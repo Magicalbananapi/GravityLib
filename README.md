@@ -18,5 +18,5 @@ Negative gravity values act as antigravity and repel entities while keeping thei
 ---
 
 Future Plans:
-- Special, swimming based vector gravity, such that swimming when gravity is set to zero unlocks the pitch rotation of the camera.
+- Special gravity effects for swimming and riptide such that swimming in zero gravity unlocks the pitch rotation of the camera.
 - Gravity Fields to apply gravity.
