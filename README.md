@@ -15,6 +15,8 @@ Generally, strength values closer to zero are weaker and those further from zero
 
 Negative gravity values act as antigravity and repel entities while keeping their direction intact, and thus a gravity of -1 Up would look like Dinnerbone does.
 
+---
+
 Future Plans:
 - Special, swimming based vector gravity, such that swimming when gravity is set to zero unlocks the pitch rotation of the camera.
 - Gravity Fields to apply gravity.
