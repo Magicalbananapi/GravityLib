@@ -2,7 +2,6 @@
 
 - Created for fabric 1.17
 - Work in progress
-
 -
 Adds 6 directional gravity to entities.
 
