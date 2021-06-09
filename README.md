@@ -7,19 +7,12 @@
 
 Adds 6 directional gravity to entities with variable strength.
 
-Directions include: Up, Down, North, East, South, and West.
+Directions defaults to Down and includes: Up, Down, North, East, South, and West.
 
-Direction defaults to Down.
+Strength defaults to 1 and acts differently depending if the value is positive, negative, or zero.
+Generally, strength values closer to zero are weaker and those further from zero are stronger, while a strength of zero prevents movement.
+Negative gravity values act as antigravity and repel entities while keeping their direction intact, and thus a gravity of -1 Up would look like Dinnerbone does.
 
-Strength causes gravity to pull entities stronger or weaker when positive, when negitive it acts like antigravity and repels, and when zero, there is no gravity.
-
-Strength defaults at 1, with higher values stronger and lower values weaker.
-
-Negative gravity will make entities fall as if their direction is opposite, but still be flipped the same direction visually.
-In this case, entities like dinnerbone would have a Negative Up gravity.
-
-Zero gravity prevents horizontal movement by default.
-
-Plans:
-- Special, swimming based, vector gravity for gravity
--
+Future Plans:
+- Special, swimming based vector gravity, such that swimming when gravity is set to zero unlocks the pitch rotation of the camera.
+- Gravity Fields to apply gravity.
