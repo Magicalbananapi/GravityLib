@@ -13,7 +13,7 @@ Strength defaults to 1 and acts differently depending if the value is positive, 
 
 Generally, strength values closer to zero are weaker and those further from zero are stronger, while a strength of zero prevents movement.
 
-Negative gravity values act as antigravity and repel entities while keeping their direction intact, and thus a gravity of -1 Up would look like Dinnerbone does.
+Negative gravity values act as antigravity and repel entities while keeping their direction intact, and thus an entitiy with an upwards gravity of -1 strength would look like Dinnerbone does.
 
 ---
 
