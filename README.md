@@ -52,10 +52,14 @@ Also attempts to fix [MC-119369](https://bugs.mojang.com/browse/MC-119369) by ma
 
 \
 /gravity set \<target> \<direction> [\<strength>] [\<time>]
+  
+/gravity set \<target> \<strength> [\<time>]
 
 /gravity set \<target> \<attribute> (\<direction>|\<strength>|\<time>)
 
 /gravity set \<target> \<type> \<direction> [\<strength>] [\<time>]
+  
+/gravity set \<target> \<type> \<strength> [\<time>]
 
 /gravity set \<target> \<type> \<attribute> (\<direction>|\<strength>|\<time>)
 
