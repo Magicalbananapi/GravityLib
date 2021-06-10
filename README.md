@@ -75,7 +75,7 @@ Also attempts to fix [MC-119369](https://bugs.mojang.com/browse/MC-119369) by ma
 
 \<strength> = (float \<value>)
 
-\<time> = (float \<value>)
+\<time> = (int \<ticks>)
 
 \<rotation> = (forward, backwards, left, right)
 
