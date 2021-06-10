@@ -27,9 +27,9 @@ Also attempts to fix [MC-119369](https://bugs.mojang.com/browse/MC-119369) by ma
 
 ---
 
-## Extra Information:
+## Extra Information: (Constantly Changing)
 
-### Command Syntax: (Constantly Changing)
+### Command Syntax:
 
 /gravity \<get, reset, rotate, set> \<target> ...
 
