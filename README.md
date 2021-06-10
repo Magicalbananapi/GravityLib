@@ -27,10 +27,9 @@ Also attempts to fix [MC-119369](https://bugs.mojang.com/browse/MC-119369) by ma
 
 ---
 
-# Extra Information:
+## Extra Information:
 
-
-## Command Syntax:
+### Command Syntax:
 
 /gravity \<get, reset, rotate, set> \<target> ...
 
@@ -62,7 +61,7 @@ Also attempts to fix [MC-119369](https://bugs.mojang.com/browse/MC-119369) by ma
 
 /gravity set \<target> \<type> \<attribute> (\<direction>|\<strength>|\<time>)
 
-## Command Arguments:
+### Command Arguments:
   
 \<target> = (entity \<target>|block \<targetPos>)
 
@@ -74,7 +73,7 @@ Also attempts to fix [MC-119369](https://bugs.mojang.com/browse/MC-119369) by ma
 
 \<direction> = (UP, DOWN, NORTH, EAST, SOUTH, WEST, NONE)
 
-## Gravity Types:
+### Gravity Types:
 
 base - all other types combined
 
@@ -89,7 +88,7 @@ projectiles - the gravity of projectiles shot by the entity/block
 special - the gravity of other entities in special cases where an entity/block's gravity is tied to another's
 (entities with the same gravity as the nearest player or the opposite gravity of a random player for example)
 
-## Special Cases:
+### Special Cases:
 
 /gravity reset \<target> time - refreshes the remaining time of the currently applied gravity back to it's maximum
 
