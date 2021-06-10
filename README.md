@@ -5,7 +5,7 @@
 
 ---
 
-##Overview
+## Overview
 
 Adds 6 directional gravity to entities with variable strength.
 
@@ -21,13 +21,13 @@ Also attempts to fix [MC-119369](https://bugs.mojang.com/browse/MC-119369) by ma
 
 ---
 
-##Future Plans:
+## Future Plans:
 - Special gravity effects for swimming and riptide such that swimming in zero gravity unlocks the pitch rotation of the camera.
 - Gravity Fields to apply gravity.
 
 ---
 
-##Extra Information:
+## Extra Information:
 
 ### Command Syntax:
 /gravity \<add, divide, get, multiply, reset, rotate, set, subtract> \<target> ...
