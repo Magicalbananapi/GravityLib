@@ -81,7 +81,7 @@ Also attempts to fix [MC-119369](https://bugs.mojang.com/browse/MC-119369) by ma
 
 \<time> = (int \<ticks>)
 
-\<reference> = (entity \<target>|block \<targetPos>|dimension <id>)
+\<reference> = (entity \<target>|block \<targetPos>|dimension \<id>)
 
 \<rotation> = (forward, backwards, left, right)
 
