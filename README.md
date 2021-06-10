@@ -68,14 +68,16 @@ Also attempts to fix [MC-119369](https://bugs.mojang.com/browse/MC-119369) by ma
 \<target> = (entity \<target>|block \<targetPos>)
 
 \<type> = (base, target, motion, drops, projectiles, special)
-
+  
 \<attribute> = (direction, strength, time)
-
-\<rotation> = (forward, backwards, left, right)
 
 \<direction> = (UP, DOWN, NORTH, EAST, SOUTH, WEST, NONE)
 
 \<strength> = (float \<value>)
+
+\<time> = (float \<value>)
+
+\<rotation> = (forward, backwards, left, right)
 
 ### Gravity Types:
 
