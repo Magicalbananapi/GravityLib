@@ -29,7 +29,7 @@ Also attempts to fix [MC-119369](https://bugs.mojang.com/browse/MC-119369) by ma
 
 ## Extra Information:
 
-### Command Syntax:
+### Command Syntax: (Constantly Changing)
 
 /gravity \<get, reset, rotate, set> \<target> ...
 
@@ -51,31 +51,37 @@ Also attempts to fix [MC-119369](https://bugs.mojang.com/browse/MC-119369) by ma
 /gravity rotate \<target> \<type> <rotation> [\<time>]
 
 \
-/gravity set \<target> \<direction> [\<strength>] [\<time>]
-  
-/gravity set \<target> \<strength> [\<time>]
+/gravity set \<target> \<direction> [\<strength>] [\<time>] [\<reference>]
 
-/gravity set \<target> \<attribute> (\<direction>|\<strength>|\<time>)
+/gravity set \<target> \<strength> [\<time>|\<reference>]
 
-/gravity set \<target> \<type> \<direction> [\<strength>] [\<time>]
-  
-/gravity set \<target> \<type> \<strength> [\<time>]
+/gravity set \<target> \<reference>
 
-/gravity set \<target> \<type> \<attribute> (\<direction>|\<strength>|\<time>)
+/gravity set \<target> \<attribute> (\<direction>|\<strength>|\<time>|\<reference>)
+
+/gravity set \<target> \<type> \<direction> [\<strength>] [\<time>] [\<reference>]
+
+/gravity set \<target> \<type> \<strength> [\<time>|\<reference>]
+
+/gravity set \<target> \<type> \<reference>
+
+/gravity set \<target> \<type> \<attribute> (\<direction>|\<strength>|\<time>|\<reference>)
 
 ### Command Arguments:
-  
+
 \<target> = (entity \<target>|block \<targetPos>)
 
 \<type> = (base, target, motion, drops, projectiles, special)
-  
-\<attribute> = (direction, strength, time)
+
+\<attribute> = (direction, strength, time, reference)
 
 \<direction> = (UP, DOWN, NORTH, EAST, SOUTH, WEST)
 
 \<strength> = (float \<value>)
 
 \<time> = (int \<ticks>)
+
+\<reference> = (entity \<target>|block \<targetPos>|dimension <id>)
 
 \<rotation> = (forward, backwards, left, right)
 
