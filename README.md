@@ -71,7 +71,7 @@ Also attempts to fix [MC-119369](https://bugs.mojang.com/browse/MC-119369) by ma
   
 \<attribute> = (direction, strength, time)
 
-\<direction> = (UP, DOWN, NORTH, EAST, SOUTH, WEST, NONE)
+\<direction> = (UP, DOWN, NORTH, EAST, SOUTH, WEST)
 
 \<strength> = (float \<value>)
 
