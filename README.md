@@ -75,6 +75,8 @@ Also attempts to fix [MC-119369](https://bugs.mojang.com/browse/MC-119369) by ma
 
 \<direction> = (UP, DOWN, NORTH, EAST, SOUTH, WEST, NONE)
 
+\<strength> = (float \<value>)
+
 ### Gravity Types:
 
 base - all other types combined
