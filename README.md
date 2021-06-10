@@ -35,8 +35,6 @@ Also attempts to fix [MC-119369](https://bugs.mojang.com/browse/MC-119369) by ma
 
 /gravity \<get, reset, rotate, set> \<target> [\<type>] ...
 
-*suggestions will be organized in alphabetical order in game, and I have no idea how to change this
-
 \
 /gravity get \<target> [\<attribute>]
 
