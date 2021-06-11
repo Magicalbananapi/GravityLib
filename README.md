@@ -26,7 +26,7 @@ Also attempts to fix [MC-119369](https://bugs.mojang.com/browse/MC-119369) by ma
 - Gravity Fields to apply gravity.
 - Per dimension config for special gravity types. (The required changes will probably make clothconfig unnessesary)
 - Priority levels for gravity fields (Gravity fields will overwrite dimension specific gravity by default)
-- Priority levels for entity gravity (Gravity fields will overwrite entity gravity by default) [Higher priority on entity gravity would result in an entity ignoring the gravity field, and an equal priority would make the gravity relative to the gravity field, while a lower priority on on entity gravity would result in the gravity field replacing the entity's gravity]
+- Priority levels for entity gravity (Gravity fields will overwrite entity gravity by default) [Higher priority on entity gravity would result in an entity ignoring the gravity field, an equal priority would make the gravity relative to the gravity field, and a lower priority on on entity gravity would result in the gravity field replacing the entity's gravity]
 
 ---
 
