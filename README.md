@@ -25,6 +25,7 @@ Also attempts to fix [MC-119369](https://bugs.mojang.com/browse/MC-119369) by ma
 - Special gravity effects for swimming and riptide such that swimming in zero gravity unlocks the pitch rotation of the camera.
 - Gravity Fields to apply gravity.
 - Per dimension config for special gravity types. (The required changes will probably make clothconfig unnessesary)
+- Priority levels for gravity fields
 
 ---
 
