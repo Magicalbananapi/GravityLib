@@ -19,7 +19,7 @@ Reference Gravity does not exist by default and is another instance of Gravity t
 
 Rules are only for dimensions and Fields, and allow Gravity to act in special ways, such as inverting based on coordinates or changing to something else whenever the time runs out. (VERY Work in progress)
 
-Adds Fields, which are essentially boxes that store extra information, and thanks to CCA, can apply components such as gravity. (This means a field can apply any CCA component, not just gravity, although it was designed such that it is most useful for gravity) (Currently Work in progress because of networking code)
+Adds Fields, which are essentially boxes that store extra information, and thanks to CCA, can apply components such as gravity. (This means a field can apply any CCA component, not just gravity, although it was designed such that it is most useful for gravity) (Fields use entity networking code for now)
 
 Also attempts to fix [MC-119369](https://bugs.mojang.com/browse/MC-119369) by making the behavior of falling boats consistent.
 
