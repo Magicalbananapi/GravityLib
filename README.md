@@ -7,7 +7,7 @@
 
 ## Overview
 
-Adds 6 directional gravity to entities with a variable strength, time, reference gravity, and rules.
+Adds 6 directional gravity to entities, dimensions, and fields with a variable strength, time, reference gravity, and rules.
 
 Directions defaults to Down and includes: Up, Down, North, East, South, and West.
 
