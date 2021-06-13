@@ -17,7 +17,7 @@ Generally, strength values closer to zero are weaker and those further from zero
 
 Negative gravity values act as antigravity and repel entities while keeping their direction intact, and thus an entitiy with an upwards gravity of -1 strength would look like Dinnerbone does.
 
-Adds Fields, which are essentially boxes that store extra information, and thanks to CCA, can apply components such as gravity. (This means a field can apply any cca component)
+Adds Fields, which are essentially boxes that store extra information, and thanks to CCA, can apply components such as gravity. (This means a field can apply any CCA component, not just gravity)
 
 Also attempts to fix [MC-119369](https://bugs.mojang.com/browse/MC-119369) by making the behavior of falling boats consistent.
 
