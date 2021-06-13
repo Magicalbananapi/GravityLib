@@ -7,15 +7,17 @@
 
 ## Overview
 
-Adds 6 directional gravity to entities with variable strength.
+Adds 6 directional gravity to entities with a variable strength, time, reference gravity, and rules.
 
 Directions defaults to Down and includes: Up, Down, North, East, South, and West.
 
-Strength defaults to 1 and acts differently depending if the value is positive, negative, or zero.
+Strength defaults to 1 and acts differently depending if the value is positive, negative, or zero. Generally, strength values closer to zero are weaker and those further from zero are stronger, while a strength of zero prevents movement. Negative gravity values act as antigravity and repel entities while keeping their direction intact, and thus an entitiy with an upwards gravity of -1 strength would visually appear like Dinnerbone does.
 
-Generally, strength values closer to zero are weaker and those further from zero are stronger, while a strength of zero prevents movement.
+Time defaults to -1 (Permanent), and is measured in ticks. For entities, gravity will revert to the default upon running out.
 
-Negative gravity values act as antigravity and repel entities while keeping their direction intact, and thus an entitiy with an upwards gravity of -1 strength would look like Dinnerbone does.
+Reference Gravity does not exist by default and is another instance of Gravity that the current gravity is relative to. (Work in progress)
+
+Rules are only for dimensions and Fields, and allow Gravity to act in special ways, such as inverting based on coordinates or changing to something else whenever the time runs out. (VERY Work in progress)
 
 Adds Fields, which are essentially boxes that store extra information, and thanks to CCA, can apply components such as gravity. (This means a field can apply any CCA component, not just gravity, although it was designed such that it is most useful for gravity)
 
