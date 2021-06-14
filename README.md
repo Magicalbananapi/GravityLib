@@ -15,9 +15,9 @@ Strength defaults to 1 and acts differently depending if the value is positive, 
 
 Time defaults to -1 (Permanent), and is measured in ticks. For entities, gravity will revert to the default upon running out.
 
-Reference Gravity does not exist by default and is another instance of Gravity that the current gravity is relative to. (Work in progress)
+Reference Gravity does not exist by default and is another instance of Gravity that the current gravity is relative to. (VERY Work in progress)
 
-Rules are only for dimensions and Fields, and allow Gravity to act in special ways, such as inverting based on coordinates or changing to something else whenever the time runs out. (VERY Work in progress)
+Rules are only for dimensions and Fields, and allow Gravity to act in special ways, such as inverting based on coordinates or changing to something else whenever the time runs out. (Work in progress)
 
 Adds Fields, which are essentially boxes that store extra information, and thanks to CCA, can apply components such as gravity. (This means a field can apply any CCA component, not just gravity, although it was designed such that it is most useful for gravity) (Fields use entity networking code for now)
 
