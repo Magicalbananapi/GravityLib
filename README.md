@@ -36,7 +36,7 @@ Also attempts to fix [MC-119369](https://bugs.mojang.com/browse/MC-119369) by ma
 
 ## Extra Information: (Constantly Changing)
 
-### Command Syntax: (Currently Work in progress; All commands with type are not implemented)
+### Command Syntax: (Currently Work in progress; All commands with type are not implemented, reference has also been left out)
 
 /gravity \<get, reset, rotate, set> \<target> ...
 
