@@ -55,7 +55,7 @@ Also attempts to fix [MC-119369](https://bugs.mojang.com/browse/MC-119369) by ma
 \
 /gravity rotate \<target> \<rotation> [\<time>]
 
-/gravity rotate \<target> \<type> <rotation> [\<time>]
+/gravity rotate \<target> \<type> \<rotation> [\<time>]
 
 \
 /gravity set \<target> \<direction> [\<strength>] [\<time>] [\<reference>]
